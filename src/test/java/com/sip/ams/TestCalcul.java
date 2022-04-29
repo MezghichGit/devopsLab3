@@ -16,5 +16,15 @@ class TestCalcul {
 	void testProduit() {
 		assertTrue(Calcul.produit(10, 2)==20);
 	}
+	
+	@Test
+	void testDivision() {
+		assertTrue(Calcul.division(10, 2)==5);
+	}
+	
+	@Test
+	void testModulo() {
+		assertTrue(Calcul.modulo(10, 3)==1);
+	}
 
 }
